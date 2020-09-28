@@ -30,7 +30,7 @@ class App extends Component {
             <Route exact path='/' render={() =>
               <section className='link-section'>
                 {this.state.starships.map(starship =>
-                  <Link className='link'
+                  <Link
                     to={{
                       pathname: '/starships',
                       state: starship
